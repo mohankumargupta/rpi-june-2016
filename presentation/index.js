@@ -74,12 +74,12 @@ export default class Presentation extends React.Component {
           </Slide>
           <CodeSlide
             transition={["fade"]}
-            lang="language-python"
+            lang="python"
             code={require("raw!../assets/siginfo.py")}
             ranges={[
               { loc: [0, 1], title: "Import Selenium" },
-               { loc: [1, 2], title: "Next Line" },
-
+              { loc: [1, 2], title: "Grab Firefox driver" },
+              { loc: [2, 3], title: "boo" }
             ]}/>
           <Slide>
             <Heading>
